@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import "compass";
+
+.hidden{
+	display: none;
+}
+
+#container{
+
+	position: relative;
+
+	p{
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		img{
+			width: 100%;
+		}
+	}
+
+	#bg{
+		position: relative;
+	}
+
+	#akeome{
+		@include opacity(0);
+		top: -100%;
+	}
+
+	#seahorse{
+		display: none;
+		// width: 0;
+		// overflow: hidden;
+	}
+
+	#e{
+		display: none;
+		// width: 0;
+		// height: 0;
+		// overflow: hidden;
+	}
+
+	#receive{
+		cursor: pointer;
+		// @include transition(width 500ms ease-in-out 0s, height 500ms ease-in-out 0s);
+
+		// &:hover{
+		// 	width: 0;
+		// 	height: 0;
+		// }
+	}
+}

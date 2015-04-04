@@ -1,0 +1,41 @@
+/* line 4, ../_scss/style.scss */
+.hidden {
+  display: none;
+}
+
+/* line 8, ../_scss/style.scss */
+#container {
+  position: relative;
+}
+/* line 12, ../_scss/style.scss */
+#container p {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 17, ../_scss/style.scss */
+#container p img {
+  width: 100%;
+}
+/* line 22, ../_scss/style.scss */
+#container #bg {
+  position: relative;
+}
+/* line 26, ../_scss/style.scss */
+#container #akeome {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  top: -100%;
+}
+/* line 31, ../_scss/style.scss */
+#container #seahorse {
+  display: none;
+}
+/* line 37, ../_scss/style.scss */
+#container #e {
+  display: none;
+}
+/* line 44, ../_scss/style.scss */
+#container #receive {
+  cursor: pointer;
+}
